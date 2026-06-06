@@ -1,0 +1,36 @@
+.page-body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.block-kpis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px .3px rgba(1, 1, 1, 0.186);
+    width: 80%;
+    margin: auto;
+    gap: 20px; 
+
+    
+}
+.block-kpis:first-child{
+    margin-top: 50px;
+}
+.image{
+    width: 700px;
+    margin: auto;
+    flex: 1;
+}
+.analysis-content{
+    width:100%;
+    flex: 1.5;
+}
+.image img{
+    width: 100%;
+}

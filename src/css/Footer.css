@@ -1,0 +1,10 @@
+.footer-container{
+    display: flex;
+    height: 50px; 
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-container .accreditation p{
+    margin: 0;
+}

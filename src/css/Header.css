@@ -1,0 +1,51 @@
+.header-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 100px;
+}
+
+.header-container .navbar{
+    background-color: transparent !important;
+    min-height: 100px;
+}
+
+.header-container .navbar .container-fluid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    
+}
+
+.header-container .navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.header-container .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-container .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.header-container .nav-link.active {
+    color: #000;
+}
+
+.nav-link.active{
+    text-decoration: underline;
+}
