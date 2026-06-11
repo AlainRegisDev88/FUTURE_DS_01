@@ -7,7 +7,7 @@ function Header(){
         <div className="header-container">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand" to="/">Dashboard</NavLink>
+                    <NavLink className="navbar-brand" to="/">DASHBOARD</NavLink>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
@@ -21,6 +21,9 @@ function Header(){
                             </li>
                             <li className="nav-item">
                                 <NavLink className={navLinkClass} to="/demographics">Demographics</NavLink>
+                            </li>
+                             <li className="nav-item">
+                                <NavLink className={navLinkClass} to="/kpis">KPIS</NavLink>
                             </li>
                         </ul>
                     </div>

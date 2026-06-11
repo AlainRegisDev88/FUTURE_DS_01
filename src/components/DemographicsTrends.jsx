@@ -1,6 +1,7 @@
 import Header from "./Header"
 import countriesRevenueImage from '../assets/analysis images/04_countries_revenue.png'
 import averageOrderValueByCountry from '../assets/analysis images/05_aov_by_country.png'
+import Footer from './Footer'
 
 export default function DemographicTrends() {
     return (
@@ -34,6 +35,7 @@ export default function DemographicTrends() {
                     </div>
                 </div>
             </div>
+            <Footer />
 
         </>
     )

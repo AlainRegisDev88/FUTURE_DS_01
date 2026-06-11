@@ -16,24 +16,25 @@
     width: 90%;
     margin: auto;
     gap: 20px;
+    border-radius: 20px;
 }
 .block:first-child{
     margin-top: 50px;
 }
-.image{
-    flex: 0 0 65%;
-    max-width: 65%;
-    min-width: 360px;
+.block {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr; /* Instantly guarantees perfectly equal halves */
 }
-.analysis-content{
-    flex: 0 0 33%;
-    max-width: 33%;
-    min-width: 300px;
+
+.image, .analysis-content {
+  flex: 0 0 50%; /* Grow: 0, Shrink: 0, Basis: 50% */
+  box-sizing: border-box; 
 }
+
 .image img{
     width: 100%;
     display: block;
-    height: auto;
+    min-height: auto;
 }
 
 @media (max-width: 900px) {
@@ -42,3 +43,5 @@
         max-width: 100%;
     }
 }
+
+
