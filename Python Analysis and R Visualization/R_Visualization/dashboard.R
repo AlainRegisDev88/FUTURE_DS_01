@@ -268,7 +268,7 @@ p9 <- ggplot(top_units, aes(x = Product, y = Quantity, fill = Quantity)) +
 ggsave("./charts/09_top_units_sold.png", p9, width = 12, height = 8, dpi = 300)
 print("✓ Chart 9: Top Units Sold")
 
-# Chart 10: KPI SUMMARY (as text visualization)
+# Chart 10: KPI SUMMARY
 format_kpi_value <- function(metric, value) {
   numeric_value <- suppressWarnings(as.numeric(value))
   if (!is.na(numeric_value)) {
